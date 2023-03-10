@@ -34,8 +34,8 @@ const Speech = () => {
             </div>
             <div className="group">
                 <button onClick={() => {
-                   //sendToGpt();
-                   speak({ text: "value" })
+                   sendToGpt();
+                //   speak({ text: "value" })
                 }}>
                     Speech
                 </button>
